@@ -4,10 +4,10 @@ from functions import save_default_config, save_current_config, run_custom_code
 def main():
     user_ip = input("Adj meg a routered IP címét: ")
     print("Melyik feladatot szeretnéd végrehajtani?:")
-    print("1. Alap konfiguráció letöltése\n"
-          + "2. Aktuális konfiguráció mentése\n"
+    print("1. Alap konfiguráció letöltése\n*"
+          + "2. Aktuális konfiguráció mentése\n*"
           + "3. Egyedi konfig betöltése az eszközön\n"
-          + "4. Egyedi kód futtatása\n"
+          + "4. Egyedi kód futtatása\n*"
           + "5. DHCP konfig beállítása net nélkül\n"
           + "6. DHCP konfig beállítása nettel\n")
     user_choice = input("Feladat száma: ")
